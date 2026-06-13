@@ -1,4 +1,4 @@
-// renderer.js - Frontend controller for One-Click Insight
+// renderer.js - Frontend controller for One Click
 
 // DOM Elements
 const modeScreen = document.getElementById('mode-screen');
@@ -402,7 +402,7 @@ function displayResult(analysis, timestamp, mediaSource) {
   // Summary
   summaryText.textContent = analysis.summary;
 
-  // Key Insights List
+  // Key Takeaways List
   keyPointsList.innerHTML = '';
   if (analysis.keyPoints && analysis.keyPoints.length > 0) {
     analysis.keyPoints.forEach(point => {
@@ -507,7 +507,7 @@ function renderHistoryList() {
   if (currentLogs.length === 0) {
     historyList.innerHTML = `
       <div class="no-history">
-        <p>No insights captured yet.</p>
+        <p>No captures yet.</p>
         <span>Your 1-click captures will appear here.</span>
       </div>
     `;

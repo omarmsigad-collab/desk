@@ -1,6 +1,6 @@
-One-Click Insight
+One Click
 
-**One-Click Insight** is a sleek, lightweight macOS desktop application built with Electron. It allows you to understand anything on your screen or browser in a single click. By leveraging local screenshot capabilities, AppleScript browser automation, and Google's Gemini multimodal models, it provides instant summaries, key takeaways, and action items without needing manual prompts.
+**One Click** is a sleek, lightweight macOS desktop application built with Electron. It allows you to understand anything on your screen or browser in a single click. By leveraging local screenshot capabilities, AppleScript browser automation, and Google's Gemini multimodal models, it provides instant summaries, key takeaways, and action items without needing manual prompts.
 
 ---
 
@@ -76,13 +76,13 @@ The application is structured using Electron's main/renderer architecture to bal
 ### 2. Screen Mode
 *   Select **Screen Mode** on the radio toggle.
 *   Keep the window/application you want to analyze visible on your screen.
-*   Click the glowing **Capture Insight** button.
-*   The One-Click Insight window will hide itself, capture your screen, restore itself, and display the structured analysis.
+*   Click the glowing **Capture** button.
+*   The One Click window will hide itself, capture your screen, restore itself, and display the structured analysis.
 
 ### 3. Website Mode
 *   Open a public article, tutorial, or blog post in **Safari** or **Google Chrome**.
-*   Select **Website Mode** on the toggle in the One-Click Insight app.
-*   Click **Capture Insight**. The app will extract the text, analyze it, and output the summary alongside a link back to the source URL.
+*   Select **Website Mode** on the toggle in the One Click app.
+*   Click **Capture**. The app will extract the text, analyze it, and output the summary alongside a link back to the source URL.
 *   *Note: For private or login-restricted pages (like Gmail, private Notion pages, or dashboards), use Screen Mode to analyze the visual contents.*
 
 ### 4. Navigating History
